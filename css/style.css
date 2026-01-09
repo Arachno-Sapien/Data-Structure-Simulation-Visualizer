@@ -1,0 +1,219 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #333;
+    text-align: center;
+}
+
+/* Top navigation */
+nav {
+    background-color: #2c3e50;
+    padding: 15px 0;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+    font-size: 1.1rem;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+/* MAIN PAGE CENTERING */
+.container {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Title */
+.title {
+    margin-bottom: 25px;
+}
+
+/* MENU LAYOUT (new lines) */
+.menu-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.vertical-menu {
+    flex-direction: column;   /* THIS forces new lines */
+}
+
+/* CARDS */
+.card {
+    background: white;
+    width: 260px;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-decoration: none;
+    color: #2c3e50;
+    transition: transform 0.2s, background 0.2s;
+    border: 1px solid #ddd;
+    font-weight: bold;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background: #3498db;
+    color: white;
+}
+
+/* Controls (Stack / Queue pages) */
+.controls {
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    display: inline-block;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 150px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #2ecc71;
+}
+
+button.btn-danger {
+    background: #c0392b;
+}
+
+button.btn-danger:hover {
+    background: #e74c3c;
+}
+/* ================= DARK MODE ================= */
+
+body.dark {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Navbar */
+body.dark nav {
+    background-color: #1f1f1f;
+}
+
+body.dark nav a {
+    color: #ffffff;
+}
+
+/* Containers */
+body.dark .container,
+body.dark .controls,
+body.dark .visual-container {
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 15px rgba(255,255,255,0.05);
+}
+
+/* Cards */
+body.dark .card {
+    background-color: #242424;
+    color: #e0e0e0;
+    border: 1px solid #333;
+}
+
+body.dark .card:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Buttons */
+body.dark button {
+    background-color: #2e7d32;
+}
+
+body.dark button:hover {
+    background-color: #43a047;
+}
+
+body.dark button.btn-danger {
+    background-color: #b71c1c;
+}
+
+/* Inputs */
+body.dark input {
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
+
+/* Nodes (stack/queue elements) */
+body.dark .node {
+    background: #2ecc71;
+    border-color: #1e8449;
+}
+
+/* Stack / Queue Borders */
+body.dark .stack-container,
+body.dark .queue-container {
+    border-color: #888;
+}
+
+/* Toggle button */
+.theme-btn {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.theme-btn:hover {
+    background: rgba(255,255,255,0.15);
+}
+
+/* ===== BACK TO MENU (GLOBAL) ===== */
+.back-link {
+    display: inline-block;
+    margin: 14px 0 30px 0;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    color: #2c3e50;   /* darker, calmer */
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* Dark mode */
+body.dark .back-link {
+    color: #e0e0e0;
+}
