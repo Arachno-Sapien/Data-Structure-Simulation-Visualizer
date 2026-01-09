@@ -51,7 +51,7 @@ DS-Visualizer/
 Using XAMPP (Recommended)
 1. Install **XAMPP**
 2. Rename the folder to DS-Visualizer & Copy the project folder into: _"C:\xampp\htdocs\"_
-3. Start **Apache & MySQL** from XAMPP Control Panel
+3. Start **Apache** from XAMPP Control Panel
 4. Open your browser and go to: http://localhost/DS-Visualizer/
    
 
