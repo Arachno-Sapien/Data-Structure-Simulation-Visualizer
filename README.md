@@ -32,7 +32,7 @@ This project is designed mainly for **students and beginners** to visualize how 
 
 ## 📂 Project Structure
 
-Data-Structure-Simulation-Visualizer/
+DS-Visualizer/
 │<br>
 ├── css/ # Stylesheets <br>
 ├── js/ # JavaScript logic and animations <br>
@@ -50,9 +50,9 @@ Data-Structure-Simulation-Visualizer/
 ## ▶️ How to Run the Project
 Using XAMPP (Recommended)
 1. Install **XAMPP**
-2. Copy the project folder into: _"C:\xampp\htdocs\"_
+2. Rename the folder to DS-Visualizer & Copy the project folder into: _"C:\xampp\htdocs\"_
 3. Start **Apache & MySQL** from XAMPP Control Panel
-4. Open your browser and go to: http://localhost/Data-Structure-Simulation-Visualizer/
+4. Open your browser and go to: http://localhost/DS-Visualizer/
    
 
 ## 🎯 Purpose of This Project
